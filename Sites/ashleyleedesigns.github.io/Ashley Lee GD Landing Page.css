@@ -1,0 +1,165 @@
+/*start global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*end global*/
+
+@font-face {
+    font-family: 'Quicksand';
+    font-family: 'Fanwood';
+    src: url('Fonts/Quicksand-Regular.otf');
+    src: url('Fonts/Quicksand-Light.otf');
+    src: url('Fonts/Quicksand-LightItalic.otf');
+    src: url('Fonts/Quicksand-Italic.otf');
+    src: url('Fonts/Quicksand-BoldItalic.otf');
+    src: url('Fonts/Quicksand-Bold.otf');
+    src: url('Fonts/Quicksand-Dash.otf');
+    src: url('Fonts/Fanwood.otf');
+    src: url('Fonts/Fanwood-Italic.otf');
+        
+}
+
+body {
+    background-color:white;
+    font-family: 'Quicksand';
+    
+}
+
+h1 {
+    font-family: 'Fanwood';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -100px;
+    background-color: lightgray;
+    height: 50px;
+    line-height: 7.0;
+}
+
+h5 {
+    font-size: 17px;
+    line-height: 12.3;
+    text-align: center;
+    margin-bottom: -180px;
+    padding: 0 5px 0 5px;
+}
+
+h4 {
+    font-family: 'Fanwood';
+    font-size: 55px;
+    margin-top: 90px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Fanwood';
+    font-size: 32px;
+    margin-top: -110px;
+    margin-left: 20px;
+    margin-right: -650px;
+}
+
+p {
+    font-family: 'Quicksand';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+p3 {
+    font-family: 'Quicksand';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-right: 350px;
+}
+
+.nav {
+    font-family: 'Quicksand-Regular';
+    color: grey;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.nav > li {
+    font-family: 'Quicksand';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    padding: opx 25px 0 25px;
+    line-height: 2.5;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgray;
+}
+
+/* selected link */
+a:active {
+    color: cadetblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    margin-top: 90px;
+    margin-left: -130px;
+    padding: 40px 145px 200px 300px;
+}
+
+td {
+    padding: 80px 20px 0 20px;
+    
+}
+
+td2 {
+    padding: 80px 20px 0 20px;
+}
+
+/*profile picture*/
+
+img {
+    
+}
+
+/*start about*/
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AshleyLeeProfilePic-img{
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.about-details{
+    flex: 1;
+}
+
+/*end about*/
